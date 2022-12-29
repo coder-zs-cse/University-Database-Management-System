@@ -25,6 +25,7 @@ public class project extends JFrame implements ActionListener{
         AddInfo.add(facultyInfo);
         
         JMenuItem studentInfo = new JMenuItem("New Student Info");
+        studentInfo.addActionListener(this);
         AddInfo.add(studentInfo);
         
         // View Details
@@ -117,6 +118,10 @@ public class project extends JFrame implements ActionListener{
         String msg = e.getActionCommand();
         if(msg=="Quit"){
             dispose();
+        }
+        else if(msg=="New Student Info"){
+            dispose();
+            new addStudent();
         }
         else if(msg=="Calculator"){
             try{
