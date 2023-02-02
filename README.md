@@ -12,5 +12,3 @@ Following images represent the UI of the project:-
 ![image](https://user-images.githubusercontent.com/75170293/216006226-0038c33c-ef99-4b6a-ae9b-c290ffbc58e5.png)
 
 ![image](https://user-images.githubusercontent.com/75170293/216004461-cd424077-0485-401f-84f4-b054a2e8a4a0.png)
-
-This project is incomplete. Many features are yet to be integrated into the database system.
